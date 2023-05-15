@@ -57,7 +57,7 @@
               &kp Q          &kp W        &kp E         &kp R        &kp T         &kp Y     &kp U     &kp I       &kp O     &kp P
               &kp A          &lt TMUX S   &kp D         &lt ARROW F  &kp G         &kp H     &kp J     &kp K       &kp L     &kp SEMI 
               &mt LSHIFT Z   &kp X        &kp C         &kp V        &kp B         &kp N     &kp M     &kp COMMA   &kp DOT   &mt LSHIFT SLASH
-                                     &mt LCTRL ESC &lt LGUI SPACE &kp BSPC         &mt LALT  TAB       &lt NUMBER  ENTER     &lt SYMBOL BSPC
+                                     &mt LCTRL ESC &lt LGUI SPACE &kp BSPC         &mt LALT  TAB       &lt NUMBER  BSPC      &lt SYMBOL ENTER
             >;
         };
         number_layer {
@@ -70,10 +70,10 @@
         };
         symbol_layer {
           bindings = <
-                    &kp EXCL &kp AT    &kp HASH &kp DOLLAR &kp PERCENT                &kp CARET &kp AMPERSAND &kp ASTERISK  &kp PIPE &kp BACKSLASH
+                    &kp EXCL &kp AT    &kp HASH &kp DOLLAR &kp PERCENT                        &kp CARET &kp AMPERSAND &kp ASTERISK  &kp PIPE &kp BACKSLASH
                     &kp TILDE    &kp GRAVE    &kp KP_PLUS    &kp UNDER    &trans              &kp LPAR    &kp LBKT    &kp LBRC    &kp SQT    &kp DQT  
-                    &kp EQUAL    &kp KP_PLUS    &kp KP_MINUS    &trans    &trans            &kp RPAR    &kp RBKT    &kp RBRC    &kp UNDER    &kp KP_MINUS  
-                                            &trans  &bt BT_CLR   &kp TILDE            &kp UNDER    &kp KP_PLUS  &trans 
+                    &kp EQUAL    &kp KP_PLUS    &kp KP_MINUS    &trans    &trans              &kp RPAR    &kp RBKT    &kp RBRC    &kp UNDER    &kp KP_MINUS  
+                                            &trans  &bt BT_CLR   &kp TILDE                    &kp UNDER    &kp KP_PLUS  &trans 
           >;
 	    	};	
         arrow_layer {
