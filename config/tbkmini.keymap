@@ -62,18 +62,18 @@
         };
         number_layer {
           bindings = <
-            &trans    &kp N7       &kp N8       &kp N9       &trans                         &trans    &trans    &trans    &trans    &trans
-            &trans    &kp N4       &kp N5       &kp N6       &trans                         &trans    &trans    &trans    &trans    &trans
-            &trans    &kp N1       &kp N2       &kp N3       &trans                         &trans    &trans    &trans    &trans    &trans
+            &kp TILDE    &kp N7       &kp N8       &kp N9       &trans                         &trans    &trans    &trans    &trans    &trans
+            &trans       &kp N4       &kp N5       &kp N6       &trans                         &trans    &trans    &trans    &trans    &trans
+            &trans       &kp N1       &kp N2       &kp N3       &trans                         &trans    &trans    &trans    &trans    &trans
                                    &kp N0       &trans       &trans                         &trans    &trans    &trans
           >;
         };
         symbol_layer {
           bindings = <
-            &kp EXCL &kp AT    &kp HASH &kp DOLLAR &kp PERCENT                        &kp CARET &kp AMPERSAND &kp ASTERISK  &kp PIPE &kp BACKSLASH
-            &kp TILDE    &kp GRAVE    &kp KP_PLUS    &kp UNDER    &trans              &kp LPAR    &kp LBKT    &kp LBRC    &kp SQT    &kp DQT  
-            &kp EQUAL    &kp KP_PLUS    &kp KP_MINUS    &trans    &trans              &kp RPAR    &kp RBKT    &kp RBRC    &kp UNDER    &kp KP_MINUS  
-                                    &trans  &bt BT_CLR   &kp TILDE                    &kp UNDER    &kp KP_PLUS  &trans 
+            &kp EXCL     &kp AT       &kp HASH        &kp DOLLAR   &kp PERCENT         &kp CARET   &kp AMPERSAND   &kp ASTERISK  &kp PIPE   &kp BACKSLASH
+            &kp TILDE    &kp GRAVE    &kp KP_PLUS     &kp UNDER    &trans              &kp LPAR    &kp LBKT        &kp LBRC      &kp SQT    &kp DQT  
+            &kp EQUAL    &kp KP_PLUS  &kp KP_MINUS    &trans       &trans              &kp RPAR    &kp RBKT        &kp RBRC      &kp UNDER  &kp KP_MINUS  
+                                      &trans          &bt BT_CLR   &kp TILDE           &kp UNDER   &kp KP_PLUS     &trans 
           >;
 	    	};	
         arrow_layer {
